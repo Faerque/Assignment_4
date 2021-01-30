@@ -66,11 +66,13 @@ nav ul li a:hover, a.active{
     min-width: 300px;
 }
 .plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
+    color: #ffffff;
+    background-color: aqua;
+    font-size: 20px;
     padding: 2px;
+    border-radius: 5px;;
     margin-top: 10px;
-    word-spacing: 20px;
+    word-spacing: 10px;
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -119,4 +121,18 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+#confirmation-area{
+    display: none;
+    
+    
+}
+#confirmation{
+    text-align: center;
+    margin-top: 400px;
+}
+
+#confirmation-h1{
+    color: yellowgreen;
 }
